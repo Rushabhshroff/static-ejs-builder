@@ -1,0 +1,20 @@
+{
+  "name": "static-ejs-builder",
+  "version": "1.0.0",
+  "description": "A simple framework for building static website with EJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "keywords": [],
+  "author": "Rushabh Shroff",
+  "license": "MIT",
+  "devDependencies": {
+    "ejs": "^3.1.5",
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0",
+    "through2": "^2.0.5"
+  }
+}

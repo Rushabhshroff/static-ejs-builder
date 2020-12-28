@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <%- include('/components/head'); %>
+</head>
+
+<body>
+    <h1>
+        Welcome to EJS WEB BUILDER
+    </h1>
+    <ul>
+        <% items.forEach(function(item){ %>
+            <li>
+                <%= item %>
+            </li>
+            <% }); %>
+    </ul>
+</body>
+
+</html>
